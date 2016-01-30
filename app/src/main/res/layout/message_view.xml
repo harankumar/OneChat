@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:clickable="false">
+
+    <ImageView
+        android:src="#9fbae5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageIcon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20px"
+        android:paddingTop="20px"
+        android:minHeight="200px"
+        android:minWidth="200px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SENDER"
+        android:id="@+id/senderName"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageIcon"
+        android:layout_toEndOf="@+id/imageIcon"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Message"
+        android:id="@+id/messageContents"
+        android:layout_below="@+id/senderName"
+        android:layout_alignLeft="@+id/senderName"
+        android:layout_alignStart="@+id/senderName" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:layout_below="@+id/imageIcon"
+        android:layout_toLeftOf="@+id/senderName"
+        android:layout_toStartOf="@+id/senderName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/timeStamp"
+        android:layout_alignTop="@+id/senderName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+</RelativeLayout>

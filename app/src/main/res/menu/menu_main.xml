@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.petev.kumar.onechat.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/moreInfo"
+        android:orderInCategory="200"
+        android:title="More Info"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="400"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/profile"
+        android:orderInCategory="300"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/donate"
+        android:orderInCategory="500"
+        android:title="Donate"
+        app:showAsAction="never" />
+</menu>
